@@ -1,10 +1,11 @@
-package com.shumile.spring_jdbc;
+package com.shumile.druid_demo;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.core.RowMapper;
 import org.springframework.stereotype.Repository;
+
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.List;
@@ -18,8 +19,7 @@ public class UserDao {
      * 添加用户
      */
     public void addUser() {
-        User user = User.builder().
-                id(1L).name("舒米君").age(18).build();
+        User user = User.builder().name("舒米君").age(18).build();
         jdbcTemplate.update
                 ("insert t_user values(?,?,?)",
                         new Object[]{user.getId(), user.getName(), user.getAge()}

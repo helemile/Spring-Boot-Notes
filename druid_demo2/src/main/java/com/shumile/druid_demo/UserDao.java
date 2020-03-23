@@ -21,7 +21,7 @@ public class UserDao {
         User user = User.builder().
                 id(1L).name("舒米君").age(18).build();
         jdbcTemplate.update
-                ("insert t_user values(?,?,?)",
+                ("insert user values(?,?,?)",
                         new Object[]{user.getId(), user.getName(), user.getAge()}
                 );
         log.info("user :{} added",user);
@@ -34,7 +34,7 @@ public class UserDao {
     private Long getCount() {
 
         return jdbcTemplate
-                .queryForObject("select count(1) from t_user", Long.class);
+                .queryForObject("select count(1) from user", Long.class);
     }
 
     /**
@@ -43,7 +43,7 @@ public class UserDao {
     public void listData() {
         log.info("Count:{}", getCount());
         //采用RowMapper的方式，获取结果对象。
-        List<User> userList2 = jdbcTemplate.query("select * from t_user", new RowMapper<User>() {
+        List<User> userList2 = jdbcTemplate.query("select * from user", new RowMapper<User>() {
             @Override
             public User mapRow(ResultSet resultSet, int i) throws SQLException {
                 return User.builder()
