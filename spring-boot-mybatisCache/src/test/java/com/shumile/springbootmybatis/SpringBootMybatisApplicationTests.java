@@ -1,24 +1,23 @@
-//
-//package com.shumile.springbootmybatis;
-//
-//import com.shumile.springbootmybatis.mapper.UserMapperWithAnnotation;
-//import org.apache.ibatis.session.SqlSession;
-//import org.apache.ibatis.session.SqlSessionFactory;
-//import org.junit.Assert;
-//import org.junit.jupiter.api.Test;
-//import org.springframework.beans.factory.annotation.Autowired;
-//import org.springframework.boot.test.context.SpringBootTest;
-//
-//import java.io.IOException;
-//import java.io.Reader;
-//
-//import org.apache.ibatis.io.Resources;
-//import org.apache.ibatis.session.SqlSessionFactoryBuilder;
-//@SpringBootTest
-//class SpringBootMybatisApplicationTests {
+
+package com.shumile.springbootmybatis;
+
+import org.apache.ibatis.session.SqlSession;
+import org.apache.ibatis.session.SqlSessionFactory;
+import org.junit.Assert;
+import org.junit.jupiter.api.Test;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.context.SpringBootTest;
+
+import java.io.IOException;
+import java.io.Reader;
+
+import org.apache.ibatis.io.Resources;
+import org.apache.ibatis.session.SqlSessionFactoryBuilder;
+@SpringBootTest
+class SpringBootMybatisApplicationTests {
 //    @Autowired
 //    private UserMapperWithAnnotation userMapper;
-//
+
 //    @Test
 //    public void oneSqlSession() throws IOException {
 //        //配置文件的名称
@@ -47,6 +46,6 @@
 //            }
 //        }
 //    }
-//
-//}
-//
+
+}
+

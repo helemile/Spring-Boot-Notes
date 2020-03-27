@@ -20,7 +20,7 @@ import java.util.Map;
 @SpringBootApplication
 @Slf4j
 @MapperScan("com.shumile.springbootmybatis.mapper")
-//@EnableTransactionManagement
+@EnableTransactionManagement
 public class SpringBootMybatisApplication implements ApplicationRunner {
 
     @Autowired
@@ -39,21 +39,21 @@ public class SpringBootMybatisApplication implements ApplicationRunner {
     @Transactional
     public void run(ApplicationArguments args) throws Exception {
         //testByMapper();
-        //testCache();
-        testByXml();
+        testCache();
+        //testByXml();
         //testBuilder();
 
     }
     private void testBuilder(){
         userMapperWithBuilder.selectUserById(18l);
     }
-
-    private void testCache(){
-        User user = userMapperWithAnnotation.findById(19L);
+   //@Transactional
+    public void testCache(){
+        User user = userMapperWithAnnotation.findById(32L);
         log.info("Find User: {}", user);
 
-        User user2 = userMapperWithAnnotation.findById(19L);
-        log.info("Find User: {}", user2);
+        User user2 = userMapperWithAnnotation.findById(32L);
+        log.info("Find User2: {}", user2);
     }
 
     private void testByXml() {

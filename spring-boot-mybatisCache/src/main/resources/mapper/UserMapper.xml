@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.shumile.springbootmybatis.mapper.UserMapper">
+
+    <!-- 自定义返回结果集 -->
+    <resultMap id="userMap" type="com.shumile.springbootmybatis.User">
+        <id property="id" column="id" javaType="Long"></id>
+        <result property="createTime" column="create_time" javaType="Date"></result>
+        <result property="updateTime" column="update_time" javaType="Date"></result>
+        <result property="name" column="name" javaType="String"></result>
+
+    </resultMap>
+
+    <select id="getUserList" resultMap="userMap" >
+        select * from user where name = #{name} and age = #{age}
+  </select>
+
+    <select id="getAllUserList" resultMap="userMap" >
+        select * from user
+  </select>
+    <update id="updateUser" parameterType="map">
+        update user set age = #{age}
+    </update>
+<!--    二级缓存配置-->
+    <cache/>
+
+</mapper>
