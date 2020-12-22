@@ -1,1 +1,44 @@
-<mxfile host="app.diagrams.net" modified="2020-12-18T07:44:29.160Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="3fSMLdkr4Uy6EgnYed31" version="14.0.5" type="github"><diagram id="_SGQD_y5icIGilB0U0md" name="Page-1">7Zlbb5swFMc/jR9bcQ88QkM37SJtyqR2j27wwBNgapwm2affMZgkYHqZ1IR0mxQp9vEl9u9/fHwJsq+KzTuOq+wzS0iOLCPZIHuOLMuED3xJy7a1eKbXGlJOE1Vpb1jQX0QZDWVd0YTUvYqCsVzQqm9csrIkS9GzYc7Zul/tB8v7v1rhlGiGxRLnuvWGJiJrrb4129vfE5pm3S+bXtCWFLirrGZSZzhh6wOTHSP7ijMm2lSxuSK5hNdxadtdP1K6GxgnpXhJA+bm2Y15b1VxUr7/8nVVG0lwocR4wPlKTfgBElYU56SQ/bYjF9sOB2erMiGyRwPZ0TqjgiwqvJSla3AAsGWiyCFnQlL1Tbggm0cHbe5QgA8RVhDBt1BFNbACRU+5j6Oy670W1kzZsgMdXGXDSv501/OeECQUpD8ANtOAlSktN2cHyjSnJtXN4VEojIuMpazE+SfGKoXiJxFiq8IAXgnWB0U2VNwepL/Lri5dlZtvVM9NZttlSpjN7WHmoJXM7ps1ua5dO3qSaPFhIAnMkK34kjyBwleBC/OUiCfqmcG4xpzkWNCH/kBeXzBLE0zOfqGyJSvhK5pWwwvj0jDsvpCe/YySTe4L4RQ4ET6dvAdhfwJ5fS1yLSpOyxRskdyELOMnfsDI8nAhw1N5V1c7TGcU2HYBa7LAFmggUewiGKYfo3iGwgiF1yj2UHCF/Lks8kMU6sEQkIg+LZzTtIT0EtBIP40kOApnkVAVFDRJ8mYRkpr+wndNV1KGitFSNPN0I+TOZV+w7up2Cb6SEOZsIITnakJ4IzpYx9Kh2+Ge3YvfOmnT0kk7JyVtjrq8HzQO3rn834bdnZq6q1MfMoZLRSWTNQTynITywgMwEsrhLkSZRAq7lxz9CSK1HTh9t53pkXoMoH80gPrt5sPNtwsU+9Jdo5kM0pGJfHDmQDpz5DRhe458+807s2MPxAh0MYKTerO+bYbzyU8Xnj3Y1Bx90ZvWCCfvaNcmfVf7yJpT2jssyBpvz46ZbeuudWJm9kik9HK5YH8w+YpxgMu7X7Gu4KJdcyFUMI1qsy+EVCq/r4lcyhAvIkMGBdjqIMaFftc5DLbtv6395oOG6z1/1h47ah8taFjOf2FfRVh3sGRHXodOK+wLzjYnv2k6fUiONXZ+GaEUHI2SfoAptvV9rqHqjoEJFrgWjJPTABt4lTPyOjt2IzzePqC/znKS0PpMeA0PyNPz0t+EyLnAGoas6WGNvPu8pevYWMx3PB2gaRyLoD1yTPsXX86ckWPVK72cQXb/j2JTdvC/rB3/Bg==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-12-22T07:08:33.774Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="dzAOSNTYoPjAi0hLuSw9" version="14.0.5" type="github">
+  <diagram id="_SGQD_y5icIGilB0U0md" name="Page-1">
+    <mxGraphModel dx="1038" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F1FAEE" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Za5c8sp0ydx1lgBo9YmZ-1" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;系统表 t_system&lt;/div&gt;&lt;table style=&quot;width: 100% ; font-size: 1em&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;id:int(11)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;FK1&lt;/td&gt;&lt;td&gt;sys_name&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;sys_desc&lt;br&gt;supplier&lt;br&gt;sys_principle&lt;br&gt;pb_principle&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" vertex="1" parent="1">
+          <mxGeometry x="140" y="280" width="180" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="Za5c8sp0ydx1lgBo9YmZ-2" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;区域表 t_area&lt;/div&gt;&lt;table style=&quot;width: 100% ; font-size: 1em&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;id:int(11)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;area_name varchar(60)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" vertex="1" parent="1">
+          <mxGeometry x="370" y="280" width="180" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="Za5c8sp0ydx1lgBo9YmZ-3" value="1" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;strokeColor=#457B9D;fillColor=#A8DADC;fontColor=#1D3557;entryX=-0.004;entryY=0.196;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.556;exitY=0.643;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Za5c8sp0ydx1lgBo9YmZ-4" target="Za5c8sp0ydx1lgBo9YmZ-2">
+          <mxGeometry x="-1" y="3" relative="1" as="geometry">
+            <mxPoint x="230" y="370" as="sourcePoint" />
+            <mxPoint x="390" y="370" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="345" y="520" />
+              <mxPoint x="345" y="307" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Za5c8sp0ydx1lgBo9YmZ-4" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;应用表 t_application&lt;/div&gt;&lt;table style=&quot;width: 100% ; font-size: 1em&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;id:int(11)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;sys_id&lt;br&gt;app_name&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;app_desc&lt;br&gt;principle&lt;br&gt;area_id&lt;br&gt;ip_range&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" vertex="1" parent="1">
+          <mxGeometry x="200" y="510" width="180" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="Za5c8sp0ydx1lgBo9YmZ-6" value="1" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;strokeColor=#457B9D;fillColor=#A8DADC;fontColor=#1D3557;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=-0.007;exitY=0.341;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Za5c8sp0ydx1lgBo9YmZ-4" target="Za5c8sp0ydx1lgBo9YmZ-1">
+          <mxGeometry x="-0.9452" y="-10" relative="1" as="geometry">
+            <mxPoint x="230" y="570" as="sourcePoint" />
+            <mxPoint x="300" y="540" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="189" y="563" />
+              <mxPoint x="130" y="563" />
+              <mxPoint x="130" y="315" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Za5c8sp0ydx1lgBo9YmZ-7" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;服务表 t_application&lt;/div&gt;&lt;table style=&quot;width: 100% ; font-size: 1em&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;id:int(11)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;sys_id&lt;br&gt;app_name&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;app_desc&lt;br&gt;principle&lt;br&gt;area_id&lt;br&gt;ip_range&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" vertex="1" parent="1">
+          <mxGeometry x="460" y="515" width="180" height="140" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
