@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-22T07:08:33.774Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="dzAOSNTYoPjAi0hLuSw9" version="14.0.5" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-24T07:59:26.575Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="yWf0xpNgaIAHY_dn0afa" version="14.0.5" type="github">
   <diagram id="_SGQD_y5icIGilB0U0md" name="Page-1">
     <mxGraphModel dx="1038" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F1FAEE" math="0" shadow="0">
       <root>
@@ -35,8 +35,8 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Za5c8sp0ydx1lgBo9YmZ-7" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;服务表 t_application&lt;/div&gt;&lt;table style=&quot;width: 100% ; font-size: 1em&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;id:int(11)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;sys_id&lt;br&gt;app_name&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;app_desc&lt;br&gt;principle&lt;br&gt;area_id&lt;br&gt;ip_range&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" vertex="1" parent="1">
-          <mxGeometry x="460" y="515" width="180" height="140" as="geometry" />
+        <mxCell id="Za5c8sp0ydx1lgBo9YmZ-7" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;服务表 t_service&lt;/div&gt;&lt;table style=&quot;width: 100% ; font-size: 1em&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;id:int(11)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;app_id&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;name&lt;br&gt;description&lt;br&gt;status&lt;br&gt;type&lt;br&gt;derection&amp;nbsp;&lt;br&gt;visibility&lt;br&gt;ip&lt;br&gt;port&lt;br&gt;enable_virtual&lt;br&gt;virtual_ip&lt;br&gt;check_method&lt;br&gt;authorized&lt;br&gt;enable_pwhite&lt;br&gt;pwhite&lt;br&gt;reject_action&lt;br&gt;new_conn_threshhold&lt;br&gt;curr_conn_threshhold&lt;br&gt;enable_authorize_app&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" vertex="1" parent="1">
+          <mxGeometry x="460" y="515" width="210" height="355" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
