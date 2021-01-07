@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-01-07T08:24:56.031Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="aiDbyXf9UtT70BLNrgEP" version="14.1.8" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2021-01-07T09:53:35.512Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="X6c5GWMShp_-Af6mDSlI" version="14.1.8" type="github" pages="10">
   <diagram id="Q-_7Xz2KOI4kapPG7E8D" name="数据库">
-    <mxGraphModel dx="1038" dy="524" grid="1" gridSize="9" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1038" dy="580" grid="1" gridSize="9" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="Y1dotid1MQkd74-I9Rub-0" />
         <mxCell id="Y1dotid1MQkd74-I9Rub-1" parent="Y1dotid1MQkd74-I9Rub-0" />
@@ -151,14 +151,109 @@
         <mxCell id="FfkOfaxqL9zrIfJvDPvw-19" value="1" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=top;" parent="FfkOfaxqL9zrIfJvDPvw-17" connectable="0" vertex="1">
           <mxGeometry x="1" relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="p4ixNfHNQNTntJHLz8qe-0" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: rgb(228 , 228 , 228) ; padding: 2px ; font-size: 7px&quot;&gt;数据源操作记录表 t_ad_operation&lt;/div&gt;&lt;table style=&quot;width: 100% ; font-size: 7px&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody style=&quot;font-size: 7px&quot;&gt;&lt;tr style=&quot;font-size: 7px&quot;&gt;&lt;td style=&quot;font-size: 7px&quot;&gt;&lt;br style=&quot;font-size: 7px&quot;&gt;&lt;/td&gt;&lt;td style=&quot;font-size: 7px&quot;&gt;PK&amp;nbsp; &amp;nbsp; &amp;nbsp;id :&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;int(11)&lt;br style=&quot;font-size: 7px&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 服务名称&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; varchar(60)&lt;br style=&quot;font-size: 7px&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; AD1节点池&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; varchar(60)&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; AD1节点池ip&amp;nbsp; &amp;nbsp; &amp;nbsp;varchar(60)&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; AD1虚拟服务&amp;nbsp; &amp;nbsp; &amp;nbsp;varchar(60)&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; AD1虚拟服务ip&amp;nbsp; varchar(60)&lt;br style=&quot;font-size: 7px&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; AD2节点池&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;varchar(60)&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; AD2节点池ip&amp;nbsp; &amp;nbsp; &amp;nbsp; varchar(60)&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; AD2健康检查&amp;nbsp; &amp;nbsp; &amp;nbsp;varchar(60)&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; AD2虚拟服务&amp;nbsp; &amp;nbsp; &amp;nbsp;varchar(60)&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; AD2虚拟服务ip&amp;nbsp; varchar(60)&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; AD2并发连接&amp;nbsp; &amp;nbsp; &amp;nbsp;varchar(60)&lt;br style=&quot;font-size: 7px&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; AD2ipro-uri脚本&amp;nbsp; &amp;nbsp; varchar(60)&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; AD2ipro-协议脚本&amp;nbsp; varchar(60)&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; AD2用户地址集&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;varchar(60)&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; AD2用户地址集源ips varchar(60)&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; AD2 ssl证书&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; varchar(60)&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; AD2 ssl卸载策略&amp;nbsp; &amp;nbsp; &amp;nbsp;varchar(60)&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; AD2-acl&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;varchar(60)&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 创建时间&amp;nbsp; &amp;nbsp;timestamp&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 更新时间&amp;nbsp; &amp;nbsp;timestamp&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;br style=&quot;font-size: 7px&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;br style=&quot;font-size: 7px&quot;&gt;&lt;br style=&quot;font-size: 7px&quot;&gt;&amp;nbsp;&lt;br style=&quot;font-size: 7px&quot;&gt;&lt;br style=&quot;font-size: 7px&quot;&gt;&lt;br style=&quot;font-size: 7px&quot;&gt;&lt;br style=&quot;font-size: 7px&quot;&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;font-size: 7px&quot;&gt;&lt;td style=&quot;font-size: 7px&quot;&gt;&lt;br style=&quot;font-size: 7px&quot;&gt;&lt;/td&gt;&lt;td style=&quot;font-size: 7px&quot;&gt;&lt;/td&gt;&lt;td style=&quot;font-size: 7px&quot;&gt;&lt;br style=&quot;font-size: 7px&quot;&gt;&lt;br style=&quot;font-size: 7px&quot;&gt;&lt;/td&gt;&lt;td style=&quot;font-size: 7px&quot;&gt;&lt;br style=&quot;font-size: 7px&quot;&gt;&lt;/td&gt;&lt;td style=&quot;font-size: 7px&quot;&gt;&lt;/td&gt;&lt;td style=&quot;font-size: 7px&quot;&gt;&lt;/td&gt;&lt;td style=&quot;font-size: 7px&quot;&gt;&lt;/td&gt;&lt;td style=&quot;font-size: 7px&quot;&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;font-size: 7px&quot;&gt;&lt;td style=&quot;font-size: 7px&quot;&gt;&lt;/td&gt;&lt;td style=&quot;font-size: 7px&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;br style=&quot;font-size: 7px&quot;&gt;&lt;br style=&quot;font-size: 7px&quot;&gt;&lt;br style=&quot;font-size: 7px&quot;&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;fontStyle=1;fontSize=7;" vertex="1" parent="Y1dotid1MQkd74-I9Rub-1">
+        <mxCell id="p4ixNfHNQNTntJHLz8qe-0" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: rgb(228 , 228 , 228) ; padding: 2px ; font-size: 7px&quot;&gt;数据源操作记录表 t_ad_operation&lt;/div&gt;&lt;table style=&quot;width: 100% ; font-size: 7px&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody style=&quot;font-size: 7px&quot;&gt;&lt;tr style=&quot;font-size: 7px&quot;&gt;&lt;td style=&quot;font-size: 7px&quot;&gt;&lt;br style=&quot;font-size: 7px&quot;&gt;&lt;/td&gt;&lt;td style=&quot;font-size: 7px&quot;&gt;PK&amp;nbsp; &amp;nbsp; &amp;nbsp;id :&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;int(11)&lt;br style=&quot;font-size: 7px&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 服务名称&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; varchar(60)&lt;br style=&quot;font-size: 7px&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; AD1节点池&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; varchar(60)&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; AD1节点池ip&amp;nbsp; &amp;nbsp; &amp;nbsp;varchar(60)&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; AD1虚拟服务&amp;nbsp; &amp;nbsp; &amp;nbsp;varchar(60)&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; AD1虚拟服务ip&amp;nbsp; varchar(60)&lt;br style=&quot;font-size: 7px&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; AD2节点池&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;varchar(60)&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; AD2节点池ip&amp;nbsp; &amp;nbsp; &amp;nbsp; varchar(60)&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; AD2健康检查&amp;nbsp; &amp;nbsp; &amp;nbsp;varchar(60)&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; AD2虚拟服务&amp;nbsp; &amp;nbsp; &amp;nbsp;varchar(60)&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; AD2虚拟服务ip&amp;nbsp; varchar(60)&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; AD2并发连接&amp;nbsp; &amp;nbsp; &amp;nbsp;varchar(60)&lt;br style=&quot;font-size: 7px&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; AD2ipro-uri脚本&amp;nbsp; &amp;nbsp; varchar(60)&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; AD2ipro-协议脚本&amp;nbsp; varchar(60)&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; AD2用户地址集&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;varchar(60)&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; AD2用户地址集源ips varchar(60)&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; AD2 ssl证书&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; varchar(60)&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; AD2 ssl卸载策略&amp;nbsp; &amp;nbsp; &amp;nbsp;varchar(60)&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; AD2-acl&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;varchar(60)&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 创建时间&amp;nbsp; &amp;nbsp;timestamp&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 更新时间&amp;nbsp; &amp;nbsp;timestamp&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;br style=&quot;font-size: 7px&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;br style=&quot;font-size: 7px&quot;&gt;&lt;br style=&quot;font-size: 7px&quot;&gt;&amp;nbsp;&lt;br style=&quot;font-size: 7px&quot;&gt;&lt;br style=&quot;font-size: 7px&quot;&gt;&lt;br style=&quot;font-size: 7px&quot;&gt;&lt;br style=&quot;font-size: 7px&quot;&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;font-size: 7px&quot;&gt;&lt;td style=&quot;font-size: 7px&quot;&gt;&lt;br style=&quot;font-size: 7px&quot;&gt;&lt;/td&gt;&lt;td style=&quot;font-size: 7px&quot;&gt;&lt;/td&gt;&lt;td style=&quot;font-size: 7px&quot;&gt;&lt;br style=&quot;font-size: 7px&quot;&gt;&lt;br style=&quot;font-size: 7px&quot;&gt;&lt;/td&gt;&lt;td style=&quot;font-size: 7px&quot;&gt;&lt;br style=&quot;font-size: 7px&quot;&gt;&lt;/td&gt;&lt;td style=&quot;font-size: 7px&quot;&gt;&lt;/td&gt;&lt;td style=&quot;font-size: 7px&quot;&gt;&lt;/td&gt;&lt;td style=&quot;font-size: 7px&quot;&gt;&lt;/td&gt;&lt;td style=&quot;font-size: 7px&quot;&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;font-size: 7px&quot;&gt;&lt;td style=&quot;font-size: 7px&quot;&gt;&lt;/td&gt;&lt;td style=&quot;font-size: 7px&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;br style=&quot;font-size: 7px&quot;&gt;&lt;br style=&quot;font-size: 7px&quot;&gt;&lt;br style=&quot;font-size: 7px&quot;&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;fontStyle=1;fontSize=7;" parent="Y1dotid1MQkd74-I9Rub-1" vertex="1">
           <mxGeometry x="81" y="963" width="225" height="324" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
+  <diagram id="M2t0Leeg1e0ibMXXoJwz" name="Page-10">
+    <mxGraphModel dx="1865" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="Mdkwo4azrC-pjLQ938ii-0" />
+        <mxCell id="Mdkwo4azrC-pjLQ938ii-1" parent="Mdkwo4azrC-pjLQ938ii-0" />
+        <mxCell id="Mdkwo4azrC-pjLQ938ii-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Mdkwo4azrC-pjLQ938ii-1" source="Mdkwo4azrC-pjLQ938ii-4" target="Mdkwo4azrC-pjLQ938ii-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="100" y="305" />
+              <mxPoint x="100" y="305" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mdkwo4azrC-pjLQ938ii-4" value="中间后端" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Mdkwo4azrC-pjLQ938ii-1">
+          <mxGeometry x="140" y="270" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Mdkwo4azrC-pjLQ938ii-5" value="核心后端" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Mdkwo4azrC-pjLQ938ii-1">
+          <mxGeometry x="140" y="380" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Mdkwo4azrC-pjLQ938ii-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Mdkwo4azrC-pjLQ938ii-1" source="Mdkwo4azrC-pjLQ938ii-6" target="Mdkwo4azrC-pjLQ938ii-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Mdkwo4azrC-pjLQ938ii-6" value="前端" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Mdkwo4azrC-pjLQ938ii-1">
+          <mxGeometry x="140" y="160" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Mdkwo4azrC-pjLQ938ii-9" value="topic1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="Mdkwo4azrC-pjLQ938ii-1">
+          <mxGeometry x="-50" y="270" width="120" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="Mdkwo4azrC-pjLQ938ii-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1.002;exitY=0.825;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="Mdkwo4azrC-pjLQ938ii-1" source="Mdkwo4azrC-pjLQ938ii-9" target="Mdkwo4azrC-pjLQ938ii-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="400" as="sourcePoint" />
+            <mxPoint x="130" y="420" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="70" y="415" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mdkwo4azrC-pjLQ938ii-13" value="topic2" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="Mdkwo4azrC-pjLQ938ii-1">
+          <mxGeometry x="360" y="270" width="120" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="Mdkwo4azrC-pjLQ938ii-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.028;entryY=0.819;entryDx=0;entryDy=0;exitX=1.002;exitY=0.825;exitDx=0;exitDy=0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="Mdkwo4azrC-pjLQ938ii-1" target="Mdkwo4azrC-pjLQ938ii-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280.04" y="412.63" as="sourcePoint" />
+            <mxPoint x="329.8" y="417.38" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="280" y="417" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mdkwo4azrC-pjLQ938ii-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=-0.028;exitY=0.192;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="Mdkwo4azrC-pjLQ938ii-1" source="Mdkwo4azrC-pjLQ938ii-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="304.5" as="sourcePoint" />
+            <mxPoint x="280" y="304.5" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mdkwo4azrC-pjLQ938ii-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.627;exitY=-0.043;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="Mdkwo4azrC-pjLQ938ii-1" source="Mdkwo4azrC-pjLQ938ii-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="240" as="sourcePoint" />
+            <mxPoint x="229" y="230" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="229" y="267" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mdkwo4azrC-pjLQ938ii-18" value="发送消息" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Mdkwo4azrC-pjLQ938ii-1">
+          <mxGeometry x="80" y="290" width="50" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="Mdkwo4azrC-pjLQ938ii-22" value="发送消息" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Mdkwo4azrC-pjLQ938ii-1">
+          <mxGeometry x="290" y="400" width="50" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="Mdkwo4azrC-pjLQ938ii-23" value="订阅消息" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Mdkwo4azrC-pjLQ938ii-1">
+          <mxGeometry x="300" y="290" width="50" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="Mdkwo4azrC-pjLQ938ii-25" value="订阅消息" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Mdkwo4azrC-pjLQ938ii-1">
+          <mxGeometry x="80" y="400" width="50" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="lkrfWbHMnZvf3nDqZkNL-0" value="请求" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Mdkwo4azrC-pjLQ938ii-1">
+          <mxGeometry x="150" y="250" width="50" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="lkrfWbHMnZvf3nDqZkNL-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1.002;exitY=0.825;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="Mdkwo4azrC-pjLQ938ii-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="70.24000000000001" y="323.5" as="sourcePoint" />
+            <mxPoint x="140" y="320" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="70" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lkrfWbHMnZvf3nDqZkNL-2" value="发送成功" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Mdkwo4azrC-pjLQ938ii-1">
+          <mxGeometry x="80" y="310" width="50" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
   <diagram id="qlMnlo64mk1Ome_SeJra" name="delete(不带主机)">
-    <mxGraphModel dx="1038" dy="524" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1038" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="d3OGRS-lu2OoKlS9hqus-0" />
         <mxCell id="d3OGRS-lu2OoKlS9hqus-1" parent="d3OGRS-lu2OoKlS9hqus-0" />
