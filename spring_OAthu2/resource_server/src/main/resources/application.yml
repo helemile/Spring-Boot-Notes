@@ -1,0 +1,5 @@
+wj:
+  appid: user-client
+  appsecret: 123456
+server:
+  port: 8085
