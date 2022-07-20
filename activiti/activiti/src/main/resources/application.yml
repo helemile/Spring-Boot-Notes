@@ -1,0 +1,28 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/activiti_spring?useUnicode=true&characterEncoding=utf8&nullCatalogMeansCurrent=true
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  activiti:
+#    flase：       默认值。activiti在启动时，会对比数据库表中保存的版本，如果没有表或者版本不匹配，将抛出异常。（生产环境常用）
+#    true：        activiti会对数据库中所有表进行更新操作。如果表不存在，则自动创建。（开发时常用）
+#    create_drop： 在activiti启动时创建表，在关闭时删除表（必须手动关闭引擎，才能删除表）。（单元测试常用）
+#    drop-create： 在activiti启动时删除原来的旧表，然后在创建新表（不需要手动关闭引擎）。
+    database-schema-update: true
+    #默认不生成历史表，这里开启
+    db-history-used: true
+    #历史登记
+#    none: 不记录历史流程，性能高，流程结束后不可读取
+#    activity: 归档流程实例和活动实例，流程变量不同步
+#    audit: 默认值，在activiti基础上同步变量值，保存表单属性
+#    full: 性能较差，记录所有实例和变量细节变化，最完整的历史记录，如果需要日后跟踪详细可以开启full（一般不建议开启）
+    history-level: full
+    deployment-mode:  never-fail # 关闭 SpringAutoDeployment
+    #校验流程文件，默认校验resources 目录下的 process里的流程 文件
+#    check-process-definitions: false
+# project manifest path
+#project:
+#  manifest:
+#   file:
+#    path: classpath:/default-project.json
