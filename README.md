@@ -2,6 +2,7 @@
 Spring Boot 实战系列代码
  
  来源于 【青梅主码】微信公众号文章
+ 掘金主页：https://juejin.cn/user/2277843825604222
 
 1、[demo](/demo)：[Spring Boot的第一个项目](https://mp.weixin.qq.com/s?__biz=MzIwMTY3NjY3MA==&mid=2247483751&idx=1&sn=90bb32f21dbfd6793b899ac4cb04d52f&chksm=96eb0376a19c8a60eb9ea0b8227b3e34d55efb0feb6e1aa944d90514333f2be70635b8bc820c&token=1724332241&lang=zh_CN#rd)
 
@@ -20,3 +21,5 @@ Spring Boot 实战系列代码
 8、[Spring-Boot-Activit](/activiti/activiti/):[Spring Boot（十三）：Spring Boot 集成 Activiti - 快速实现工作流
 ](https://mp.weixin.qq.com/s?__biz=MzIwMTY3NjY3MA==&mid=2247486433&idx=1&sn=09b3fe0358d59718b101b7503d3c7dcf&chksm=96eb09f0a19c80e69d52976922aa0537d77512f855e3d925477b1abd6c706fa4aea68a53c89e&token=1724332241&lang=zh_CN#rd)
 
+9、[Spring-Boot-Activit](/jwt_demo):[告别 session，还是这个认证方案优秀！
+](https://juejin.cn/post/7128212823892557861)
