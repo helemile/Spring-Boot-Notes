@@ -23,3 +23,7 @@ Spring Boot 实战系列代码
 
 9、[Spring-Boot-Activit](/jwt_demo):[告别 session，还是这个认证方案优秀！
 ](https://juejin.cn/post/7128212823892557861)
+
+10、[Spring-Boot-Activit](/springSecurityJwt):[Spring Boot（十四）：Spring Security JWT -实现分布式架构的认证！
+](https://mp.weixin.qq.com/s?__biz=MzIwMTY3NjY3MA==&mid=2247486759&idx=1&sn=e464a886ad348bc56ee6cbc17551c02c&chksm=96eb0f36a19c86208cbcbd55b439eb26ea6501aff02bf6cdfbafbdbe8e8fa8540cdf4cc50637&token=1371809950&lang=zh_CN#rd)
+
